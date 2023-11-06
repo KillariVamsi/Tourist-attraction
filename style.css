@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Onest&family=Open+Sans&display=swap');
+
+
+/* Tourist Attraction *//* Tourist Attraction *//* Tourist Attraction *//* Tourist Attraction */
+
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Onest', sans-serif;
+}
+.orange{
+    color: orange;
+}
+.sb{
+    color: skyblue;
+
+}
+.red{
+    color: red;
+
+}
+.aqua{
+    color: rgb(3, 122, 169);
+
+}
+.violet{
+    color: violet;
+
+}
+#card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Onest', sans-serif;
+}
+#card-1{
+    width: 20%;
+    height: 280px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    margin: 100px 60px 0px 60px ;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    transform: rotateX(65deg);
+    box-shadow: 6px 6px 8px gray, -6px -6px 8px gray;
+}
+#card-1 p{
+    text-align: justify;
+}
+
+#card-1 h3{
+    font-weight: 1000;
+}
+
+#card-1:hover{
+    transform: rotateX(0deg);
+}
+
+#card-2{
+    width: 20%;
+    height: 280px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    margin: 100px 60px 0px 60px ;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 10px;
+    transform: rotateX(65deg);
+    box-shadow: 6px 6px 8px gray, -6px -6px 8px gray;
+
+}
+#card-2 p{
+    text-align: justify;
+}
+
+#card-2 h3{
+    font-weight: 1000;
+}
+
+#card-2:hover{
+    transform: rotateX(0deg);
+}
+
+#card-3{
+    width: 20%;
+    height: 280px;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    text-align: center;
+    margin: 100px 60px 0px 60px ;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 10px;
+    transform: rotateX(65deg);
+    box-shadow: 6px 6px 8px gray, -6px -6px 8px gray;
+
+}
+#card-3 p{
+    text-align: justify;
+}
+
+#card-3 h3{
+    font-weight: 1000;
+}
+
+#card-3:hover{
+    transform: rotateX(0deg);
+}
